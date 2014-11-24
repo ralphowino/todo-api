@@ -10,8 +10,8 @@ I have used an intersection between laravel 5 and 4.2. This is partly because La
 ##Components Used
 The list of components used in this tutorial will keep changing with time as new packages emerge. The current components used include:
 
-- **Dingo/api** : An awesome package by @jasonclewis [https://twitter.com/jasonclewis] that  scaffold a lot of the api features required to make a great api
-- **Lucadegasperi/oauth2-server-laravel** : A Laravel wrapper for the phpleague/oauth-server package. Makes integrating OAuth 2.0 fast and easy
+- [**Dingo/api**](https://github.com/dingo/api): An awesome package by @jasonclewis that  scaffold a lot of the api features required to make a great api
+- [**Lucadegasperi/oauth2-server-laravel**](https://github.com/lucadegasperi/oauth2-server-laravel): A Laravel wrapper for the phpleague/oauth-server package. Makes integrating OAuth 2.0 fast and easy
 
 
 #Contributing
