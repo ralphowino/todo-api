@@ -1,25 +1,18 @@
-## Laravel PHP Framework
+#Building a Restful API using Laravel
+This is an advanced version of the simple todo list example api common with most tutorials.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Status
+The step by step tutorial is still work in progress. For now you can read through the phpdocs, browse through the files, make calls using swagger or postman (whichever you are comfortable with) and most importantly build your own api.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+##Version Used
+I have used an intersection between laravel 5 and 4.2. This is partly because Laravel 5, while still unstable, is bound to come in in the next few weeks (January to be exact). So let's make our app using the latest stable api while ensuring we have a smooth transition to laravel 5.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+##Components Used
+The list of components used in this tutorial will keep changing with time as new packages emerge. The current components used include:
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+- **Dingo/api** : An awesome package by @jasonclewis [https://twitter.com/jasonclewis] that  scaffold a lot of the api features required to make a great api
+- **Lucadegasperi/oauth2-server-laravel** : A Laravel wrapper for the phpleague/oauth-server package. Makes integrating OAuth 2.0 fast and easy
 
-## Official Documentation
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
-
-### Contributing To Laravel
-
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+#Contributing
+I'd love to hear your comments and suggestions on how to improve this tutorial. Put up an issue on github or tweet me and I'll get on it as soon as I can.
