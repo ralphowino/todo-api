@@ -122,13 +122,6 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
-		/*Packages providers*/
-		'Dingo\Api\ApiServiceProvider',
-		'LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider',
-
-		/*App providers*/
-		'Ralphowino\Tutorials\Todo\Providers\TodoServiceProvider',
-
 	),
 
 	/*
@@ -195,8 +188,7 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
-		'API' 				=> 'Dingo\Api\Facades\API',
-		'AuthorizationServer'=> 'LucaDegasperi\OAuth2Server\Facades\AuthorizationServerFacade',
+
 	),
 
 );

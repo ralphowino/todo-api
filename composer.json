@@ -5,23 +5,17 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "~4.2",
-		"dingo/api" : "~0.0",
-		"lucadegasperi/oauth2-server-laravel": "~1.0"
-	},
-	"require-dev":{
-	  "codeception/codeception" : "~2.0.0",
-	  "barryvdh/laravel-ide-helper": "~1.0",
-		"phpdocumentor/phpdocumentor": "2.*"
+		"laravel/framework": "4.2.*"
 	},
 	"autoload": {
 		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
 			"app/database/migrations",
-			"app/database/seeds"
-		],
-		"psr-4" : {
-		  "Ralphowino\\Tutorials\\Todo\\" :"app/"
-		}
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
 	},
 	"scripts": {
 		"post-install-cmd": [
