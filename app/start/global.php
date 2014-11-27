@@ -11,6 +11,14 @@
 |
 */
 
+ClassLoader::addDirectories(array(
+
+	app_path().'/commands',
+	app_path().'/controllers',
+	app_path().'/models',
+	app_path().'/database/seeds',
+
+));
 
 /*
 |--------------------------------------------------------------------------
@@ -37,9 +45,6 @@ Log::useFiles(storage_path().'/logs/laravel.log');
 | shown, which includes a detailed stack trace during debug.
 |
 */
-
-
-
 
 App::error(function(Exception $exception, $code)
 {
@@ -73,4 +78,4 @@ App::down(function()
 |
 */
 
-
+require app_path().'/filters.php';
